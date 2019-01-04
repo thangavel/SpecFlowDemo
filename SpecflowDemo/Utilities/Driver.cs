@@ -27,7 +27,7 @@ namespace SpecflowDemo.Utilities
         public void AfterScenario()
         {
             //TODO: implement logic that has to run after executing each scenario
-            CommonConstants.driver.CloseWebDriver();
+            CommonConstants.driver.CloseWebDriver();//Close and quit the web driver
         }
     }
 }
